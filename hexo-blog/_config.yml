@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 赵涛’Blog
 subtitle:
-description:
+description: An excellent life is in the near future.
 keywords:
-author: John Doe
-language:
-timezone:
+author: 
+language: zh-Hans
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,4 +81,9 @@ deploy:
   type: git
   repository: git@github.com:CapZhaot/CapZhaot.github.io
   branch: master
+  
+algolia:
+  applicationID: 'F24IQBZLHP'
+  indexName: 'my-blog'
+  chunkSize: 5000  
   
